@@ -18,7 +18,7 @@ export default class Charts extends Component {
     tooltip: React.PropTypes.object,
     legend: React.PropTypes.object,
     dataRange: React.PropTypes.object,
-    dataZoom: React.PropTypes.object,
+    dataZoom: React.PropTypes.array,
     roamController: React.PropTypes.object,
     grid: React.PropTypes.object,
     color: React.PropTypes.array,
